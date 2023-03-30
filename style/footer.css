@@ -1,0 +1,105 @@
+.contact{
+    background: #100E1D;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.875em 10.5em 2.875em 10.5em;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_link{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: white;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 2.25em;
+}
+
+.media_logo{
+    color: #F2F2F2;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 2.25em;
+    font-style: bolder;
+    margin-bottom: 0.5em;
+}
+
+.media_links-img{
+    margin-right: 0.5em;
+}
+.about_contact{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+.email_btn{
+    background: #F2F2F2;
+    display: inline-block;
+    border-radius: 12px;
+}
+.email-input{
+    color: #828282;
+    background: #F2F2F2;
+    border: none;
+    font-size: 1.125em;
+    padding: 0.6em 1.3em;
+    font-style: normal;
+    margin-left: 5px;
+}
+.btn{
+    font-style: normal;
+    font-size: 1.125em;
+    width: 94px;
+    height: 49px;
+    color:#F2F2F2;
+    background: #2D9CDB;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 0.6em 1.3em;
+    margin-left: 1em;
+}
+@media screen and (max-width: 800px) {
+    .contact{
+        padding: 2em 8em 2em 8em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contact{
+        flex-direction: column;
+    }
+    .nav{
+        margin-bottom: 4em;
+    }
+    .media_links-img{
+        margin-bottom: 4em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact{
+        padding: 2em 2em 2em 2em ;
+    }
+}
+.footer {
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    color: #fcfafa;
+    background-color: #100E1D;
+}
+.footer a {
+    text-decoration:underline;
+    color: inherit;
+}

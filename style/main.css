@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+.sub_title{
+    margin-top: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+    width:23%;
+}

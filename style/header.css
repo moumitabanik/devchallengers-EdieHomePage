@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+    margin-top: 3.1%;
+    margin-bottom: 2em;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.hamburger{
+    color: black;
+    font-weight: 600;
+    display: none;
+}
+.logo{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #333333;
+}
+.links{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+.link{
+    margin-right: 2em;
+    scroll-behavior: smooth;
+}
+.link:last-child{
+    margin-right: 0;
+}
+.link:hover{
+    color: blue;
+}
+.dropdown_content{
+    display: none;
+    justify-content: flex-end;
+    margin-right: 1em;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .links{
+        display: none;
+    }
+    .hamburger{
+        float: right;
+        display: block;
+        padding: 12px;
+        cursor: pointer;
+    }
+    a.hamburger {
+        position: relative;
+    }
+    .dropdown_involve{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 5%;
+        width: 60%;
+    }
+    .dropdown{
+        box-shadow: 0 0 10px #333333;
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        margin-top: 5%;
+        font-size: 1em;
+        align-items: center;
+        background: black;
+    }
+    .link{
+        font-weight: 500;
+        font-style: bold;
+        margin-right: 0;
+        color: white;
+        align-items: center;
+        padding-top: 2em;
+    }
+    .link:last-child{
+        margin-bottom: 2em;
+    }
+    .link:hover{
+        color: white;
+    }
+}

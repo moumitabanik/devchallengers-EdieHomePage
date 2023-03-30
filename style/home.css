@@ -1,0 +1,126 @@
+.home,.about{
+    margin-left: 17em;
+    margin-right: 38em;
+    width: 40%;
+}
+.home_question{
+    color: #2D9CDB;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+
+.home_img{
+    position:relative;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+    width: 94.6%;
+    border-radius: 18px;
+    margin-bottom: 2.625em; 
+    margin-top: 2.625em;
+}
+.about_txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+.about_contact{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #828282;
+}
+.email_btn{
+    background: #F2F2F2;
+    display: inline-block;
+    border-radius: 12px;
+}
+.email-input{
+    color: #828282;
+    background: #F2F2F2;
+    border: none;
+    font-size: 1.125em;
+    padding: 0.6em 1.3em;
+    font-style: normal;
+}
+.btn{
+    font-style: normal;
+    font-size: 1.125em;
+    width: 94px;
+    height: 49px;
+    color:#F2F2F2;
+    background: #2D9CDB;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 0.6em 1.3em;
+    margin-left: 1em;
+}
+@media screen and (max-width: 1024px) {
+    .home{
+        margin-left: 10em;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        margin-left: 2.5em;
+        width: 70%;
+    }
+    .home_question{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .home{
+        margin-left: 2em;
+        width: 90%;
+    }
+    .home_question{
+        font-size: 0.75em;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .about{
+        margin-left: 10em;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        margin-left: 2.5em;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about{
+        margin-left: 2.5em;
+        margin-bottom: 6.375em;
+        width: 85%;
+    }
+    .about_txt{
+        font-size: 0.75em;
+    }
+    .about_contact{
+        font-size: 0.625em;
+    }
+    .email-input{
+        font-size: 0.875em;
+    }
+    .btn{
+        font-size: 0.775em;
+    }
+    .email_btn{
+        margin-bottom: 6.375em;
+    }
+}
