@@ -23,11 +23,4 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST_DNS }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           TARGET: ${{ secrets.TARGET_DIR }}
-
-  python-linting-codes:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Super-Linter
-        uses: super-linter/super-linter@v7.1.0
     

@@ -1,0 +1,17 @@
+name: Push-to-EC2
+
+# Trigger deployment only on push to main branch
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  python-linting-codes:
+    name: python-linting-code
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Super-Linter
+        uses: super-linter/super-linter@v7.1.0
+    
